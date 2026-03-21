@@ -157,3 +157,11 @@ necessary packages such as SSSD and Realm and changes some IP addresses and host
   After I finished installing FOG server on my Ubuntu virtual machine, I changed DHCP IP address in the FOG server so my Windows Server 2025 DHCP server picks up in the network and
   lease the IP address and handle the rest when I reboot the Windows 11 Pro virutal machine that already been install and copying and uploading to the FOG server.
 </p>
+
+
+<h2>Copying and uploading to the third virtual machine</h2>
+
+<p>
+  Once FOG server completely got all the operating system from the Windows 11 Pro, I create another virutal machine which test as empty and
+  I use the boot file I create from the FOG server and clicked button to start copying and uploading to the empty virtual machine.
+</p>
